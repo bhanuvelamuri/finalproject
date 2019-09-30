@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="projectautomation.Flight_Selection_Test">
+        <methods>
+          <include name="flight_Select_test"/>
+        </methods>
+      </class> <!-- projectautomation.Flight_Selection_Test -->
+      <class name="projectautomation.Secure_payment_Test">
+        <methods>
+          <include name="Form_fill_secure_Payment_Test"/>
+        </methods>
+      </class> <!-- projectautomation.Secure_payment_Test -->
+      <class name="projectautomation.TotalAmt_Taxes_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="TotalAmt_with_Taxes"/>
+        </methods>
+      </class> <!-- projectautomation.TotalAmt_Taxes_Test -->
+      <class name="projectautomation.Arival_Depature_Selection_Test">
+        <methods>
+          <include name="Arival_Depature_Selection"/>
+        </methods>
+      </class> <!-- projectautomation.Arival_Depature_Selection_Test -->
+      <class name="projectautomation.Signin_Test">
+        <methods>
+          <include name="sign_in_test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- projectautomation.Signin_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

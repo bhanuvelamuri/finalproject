@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="deliverable_2">
+    <classes>
+      <class name="projectautomation.Test_file"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="deliverable_2">
+    <classes>
+      <class name="projectautomation_deliverable_2_Test.Test_file_2"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="deliverable_3">
+    <classes>
+      <class name="projectautomation_deliverable_3_Test.Test_file_3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

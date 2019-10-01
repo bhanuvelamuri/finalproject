@@ -3,32 +3,51 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="projectautomation.Flight_Selection_Test">
+      <class name="projectautomation_deliverable_2_Test.Test_file_2">
         <methods>
-          <include name="flight_Select_test"/>
+          <include name="Initilize"/>
+          <include name="teardown"/>
+          <include name="Add_Cart_Test"/>
+          <include name="Proceed_to_checkout_Test_address"/>
+          <include name="Signup_form_test" invocation-numbers="0"/>
+          <include name="Order_confirmation_test"/>
+          <include name="url_initilize"/>
+          <include name="Proceed_to_checkout_Summary_Test"/>
+          <include name="Click_signin_homepage_test"/>
+          <include name="Order_confirmation_print_test"/>
+          <include name="Pay_check_test"/>
+          <include name="Registration_Form_test" invocation-numbers="0"/>
+          <include name="Proceed_to_checkout_Test_shipping"/>
         </methods>
-      </class> <!-- projectautomation.Flight_Selection_Test -->
-      <class name="projectautomation.Secure_payment_Test">
+      </class> <!-- projectautomation_deliverable_2_Test.Test_file_2 -->
+      <class name="projectautomation.Test_file">
         <methods>
           <include name="Form_fill_secure_Payment_Test"/>
-        </methods>
-      </class> <!-- projectautomation.Secure_payment_Test -->
-      <class name="projectautomation.TotalAmt_Taxes_Test">
-        <methods>
-          <include name="teardown"/>
           <include name="TotalAmt_with_Taxes"/>
-        </methods>
-      </class> <!-- projectautomation.TotalAmt_Taxes_Test -->
-      <class name="projectautomation.Arival_Depature_Selection_Test">
-        <methods>
+          <include name="teardown"/>
+          <include name="flight_Select_test"/>
+          <include name="Initilize"/>
           <include name="Arival_Depature_Selection"/>
-        </methods>
-      </class> <!-- projectautomation.Arival_Depature_Selection_Test -->
-      <class name="projectautomation.Signin_Test">
-        <methods>
           <include name="sign_in_test" invocation-numbers="0"/>
         </methods>
-      </class> <!-- projectautomation.Signin_Test -->
+      </class> <!-- projectautomation.Test_file -->
+      <class name="projectautomation_deliverable_3_Test.Test_file_3">
+        <methods>
+          <include name="Proceed_to_checkout_Test_shipping"/>
+          <include name="Pay_check_test"/>
+          <include name="Order_confirmation_print_test"/>
+          <include name="Edit_Details_Account_Test" invocation-numbers="0"/>
+          <include name="Proceed_to_checkout_Test_address"/>
+          <include name="Add_Cart_Test"/>
+          <include name="Initilize"/>
+          <include name="Search_Test" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="Click_Account_Information_Test"/>
+          <include name="Proceed_to_checkout_Summary_Test"/>
+          <include name="Order_confirmation_test"/>
+          <include name="Sign_in_page_Test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- projectautomation_deliverable_3_Test.Test_file_3 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

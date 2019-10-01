@@ -1,5 +1,6 @@
 package projectautomation_deliverable_2_Test;
 
+import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -13,7 +14,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 import projectautomation_deliverable_2.Add_Cart;
 import projectautomation_deliverable_2.Click_Signin_Homepage;
 import projectautomation_deliverable_2.Order_Confirmation_Printing;
@@ -26,30 +26,27 @@ import utilities.utilities;
 
 public class Test_file_2 extends utilities{
 	@BeforeTest
-	public void Initilize() throws Exception {	
+	public void Initilize() throws Exception{	
 		driver = initilizeDriver();
-		System.out.println("=======================================");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 	}
-	@Test(priority=1)
+	@Test(priority=14)
 	public void url_initilize() throws IOException {
 		driver.get("http://automationpractice.com");
 	}
-	@Test(priority=2)
+	@Test(priority=15)
 	public void Click_signin_homepage_test() throws IOException {
 		Click_Signin_Homepage signin_homepage = new Click_Signin_Homepage(driver);
 		signin_homepage.getclickonsignin().click();
-		System.out.println("Clicking on signin completed");
 	}
-	@Test(dataProvider="getdata", priority=3)
+	@Test(dataProvider="getdata", priority=16)
 	public void Signup_form_test(String Username,String Password) throws IOException {
 		Signup_form signup_email = new Signup_form(driver);
 		signup_email.getregister_email().sendKeys(Username);
 		signup_email.get_signup_submit().click();
-		System.out.println("signup with email completed");
 	}
-	@Test(dataProvider="getaccountdetails" , priority=4)
+	@Test(dataProvider="getaccountdetails" , priority=17)
 	public void Registration_Form_test(String firstname,String lastname,String password,String addr_firstname,String addr_lastname,String company,String addr_line1,String addr_line2,String addr_city,String addr_zip,String phone,String alias) throws IOException {
 		Registration_Form register = new Registration_Form(driver);
 		register.gettitle_gender().click();
@@ -76,10 +73,9 @@ public class Test_file_2 extends utilities{
 		register.getaddr_phone().sendKeys(phone);
 		register.getalis().sendKeys(alias);
 		register.getsubmit().click();
-		System.out.println("signup with registration form completed");
 		register.getHome().click();
 	}
-	@Test(priority=5)
+	@Test(priority=18)
 	public void Add_Cart_Test() throws IOException, InterruptedException {
 		Add_Cart addcart = new Add_Cart(driver);
 		WebElement scroll = addcart.getmove_product();
@@ -95,60 +91,51 @@ public class Test_file_2 extends utilities{
 		WebElement button_proceed_to_checkout;
 		button_proceed_to_checkout = wait.until(ExpectedConditions.elementToBeClickable(addcart.getproceed_to_checkout()));
 		button_proceed_to_checkout.click();
-		System.out.println("Add to Cart completed");
 }
-	@Test(priority=6)
+	@Test(priority=19)
 	public void Proceed_to_checkout_Summary_Test() throws IOException, InterruptedException {
 		Proceed_to_Checkout proceedcart = new Proceed_to_Checkout(driver);
 		proceedcart.get_proceed_to_checkout_summary().click();
-		System.out.println("Proceed to checkout summary completed");
 }
-	@Test(priority=7)
+	@Test(priority=20)
 	public void Proceed_to_checkout_Test_address() throws IOException, InterruptedException {
 		Proceed_to_Checkout proceedcart_address = new Proceed_to_Checkout(driver);
-		proceedcart_address.get_proceed_to_checkout_address().click();;
-		System.out.println("Proceed to checkout in address page completed");
-		System.out.println("agree terms and conditions");
+		proceedcart_address.get_proceed_to_checkout_address().click();
 }	
-	@Test(priority=8)
+	@Test(priority=21)
 	public void Proceed_to_checkout_Test_shipping() throws IOException, InterruptedException {
 		Proceed_to_Checkout proceedcart_shipping = new Proceed_to_Checkout(driver);
 		proceedcart_shipping.getagree_to_terms().click();
-		proceedcart_shipping.get_proceed_to_checkout_shipping().click();;
-		System.out.println("Check on accept to terms and Proceed to checkout in shipping completed");
+		proceedcart_shipping.get_proceed_to_checkout_shipping().click();
 }
-	@Test(priority=9)
+	@Test(priority=22)
 	public void Pay_check_test() throws IOException, InterruptedException {
 		Pay_check pay = new Pay_check(driver);
 		pay.get_pay_check().click();
-		System.out.println("Payment on check completed");
 }
-	@Test(priority=10)
+	@Test(priority=23)
 	public void Order_confirmation_test() throws IOException, InterruptedException {
 		Order_confirmation order = new Order_confirmation(driver);
 		order.get_order_confirmation().click();
-		System.out.println("Confirming the order completed");
 }
-	@Test(priority=11)
+	@Test(priority=24)
 	public void Order_confirmation_print_test() throws IOException, InterruptedException {
 		Order_Confirmation_Printing order = new Order_Confirmation_Printing(driver);
-		System.out.println("==============================================================================");
-		System.out.println("==============================================================================");
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		System.out.println(order.get_Order_Confirmation_Printing().getText());
-		System.out.println("==============================================================================");
-		System.out.println("==============================================================================");
-		System.out.println("Confirming the order completed");
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 }
 	@AfterTest
 	public void teardown() throws Exception {
-		System.out.println("=======================================");
 		driver.close();
 	}
 	@DataProvider
 	public Object[][] getdata()
 	{
 		Object[][] data=new Object[1][2];
-		data[0][0]="bhanu45@gmail.com";
+		data[0][0]="bhanu47@gmail.com";
 		data[0][1]="xyz9999";
 		return data;
 	}

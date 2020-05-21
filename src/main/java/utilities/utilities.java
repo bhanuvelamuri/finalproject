@@ -14,15 +14,15 @@ public class utilities {
 	 public Properties prop;
 	 public WebDriver initilizeDriver() throws IOException{
 		 Properties prop = new Properties();
-		 FileInputStream fis = new FileInputStream("/bhanu/mcit/src/main/java/utilities/data.properties");
+		 FileInputStream fis = new FileInputStream("/home/bhanu/Selenium/projects/mcit/src/main/java/utilities/data.properties");
 		 prop.load(fis);
 		 String browserName= prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
-				System.setProperty("webdriver.chrome.driver","/bhanu/chromedriver");
+				System.setProperty("webdriver.chrome.driver","/home/bhanu/Selenium/drivers/chromedriver");
 				driver = new ChromeDriver();
 		}
 			else if(browserName.equals("firefox")) {
-				System.setProperty("webdriver.gecko.driver","/bhanu/geckodriver");
+				System.setProperty("webdriver.gecko.driver","/home/bhanu/Selenium/drivers/geckodriver");
 				driver = new FirefoxDriver();
 			}
 			driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="6" passed="2" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-01T04:20:55 EDT" name="Default suite" finished-at="2019-10-01T04:21:56 EDT" duration-ms="60855">
+  <suite started-at="2019-10-01T15:33:20 EDT" name="Default suite" finished-at="2019-10-01T15:34:18 EDT" duration-ms="57871">
     <groups>
     </groups>
-    <test started-at="2019-10-01T04:20:55 EDT" name="Default test" finished-at="2019-10-01T04:21:56 EDT" duration-ms="60855">
+    <test started-at="2019-10-01T15:33:20 EDT" name="Default test" finished-at="2019-10-01T15:34:18 EDT" duration-ms="57871">
       <class name="projectautomation.Test_file">
-        <test-method is-config="true" signature="Initilize()[pri:0, instance:projectautomation.Test_file@f2f2cc1]" started-at="2019-10-01T04:20:55 EDT" name="Initilize" finished-at="2019-10-01T04:21:06 EDT" duration-ms="11319" status="PASS">
+        <test-method is-config="true" signature="Initilize()[pri:0, instance:projectautomation.Test_file@6646153]" started-at="2019-10-01T15:33:20 EDT" name="Initilize" finished-at="2019-10-01T15:33:31 EDT" duration-ms="10097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initilize -->
-        <test-method signature="url_initilize()[pri:25, instance:projectautomation.Test_file@f2f2cc1]" started-at="2019-10-01T04:21:06 EDT" name="url_initilize" finished-at="2019-10-01T04:21:07 EDT" duration-ms="917" status="PASS">
+        <test-method signature="url_initilize()[pri:25, instance:projectautomation.Test_file@6646153]" started-at="2019-10-01T15:33:31 EDT" name="url_initilize" finished-at="2019-10-01T15:33:32 EDT" duration-ms="1264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- url_initilize -->
-        <test-method signature="sign_in_test(java.lang.String, java.lang.String)[pri:26, instance:projectautomation.Test_file@f2f2cc1]" started-at="2019-10-01T04:21:07 EDT" name="sign_in_test" data-provider="getData" finished-at="2019-10-01T04:21:13 EDT" duration-ms="5357" status="PASS">
+        <test-method signature="sign_in_test(java.lang.String, java.lang.String)[pri:26, instance:projectautomation.Test_file@6646153]" started-at="2019-10-01T15:33:32 EDT" name="sign_in_test" data-provider="getData" finished-at="2019-10-01T15:33:37 EDT" duration-ms="5362" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sign_in_test -->
-        <test-method signature="flight_Select_test()[pri:27, instance:projectautomation.Test_file@f2f2cc1]" started-at="2019-10-01T04:21:13 EDT" name="flight_Select_test" finished-at="2019-10-01T04:21:23 EDT" duration-ms="10031" status="FAIL">
+        <test-method signature="flight_Select_test()[pri:27, instance:projectautomation.Test_file@6646153]" started-at="2019-10-01T15:33:37 EDT" name="flight_Select_test" finished-at="2019-10-01T15:33:47 EDT" duration-ms="10033" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //input[@value='oneway']
@@ -39,8 +39,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'kali', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-kali4-amd64', java.version: '12.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 15776, moz:profile: /tmp/rust_mozprofile3D7xzB, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: f597f11d-dea1-412a-9acf-b8197519238e
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 5116, moz:profile: /tmp/rust_mozprofile7SHeO4, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6768258f-2ad5-4768-aad5-0b9d4499acea
 *** Element info: {Using=xpath, value=//input[@value='oneway']}]]>
             </message>
             <full-stacktrace>
@@ -49,8 +49,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'kali', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-kali4-amd64', java.version: '12.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 15776, moz:profile: /tmp/rust_mozprofile3D7xzB, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: f597f11d-dea1-412a-9acf-b8197519238e
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 5116, moz:profile: /tmp/rust_mozprofile7SHeO4, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6768258f-2ad5-4768-aad5-0b9d4499acea
 *** Element info: {Using=xpath, value=//input[@value='oneway']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -68,7 +68,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at projectautomation.Flight_Selection.gettriptype(Flight_Selection.java:26)
-at projectautomation.Test_file.flight_Select_test(Test_file.java:47)
+at projectautomation.Test_file.flight_Select_test(Test_file.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,7 +103,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flight_Select_test -->
-        <test-method signature="Arival_Depature_Selection()[pri:28, instance:projectautomation.Test_file@f2f2cc1]" started-at="2019-10-01T04:21:23 EDT" name="Arival_Depature_Selection" finished-at="2019-10-01T04:21:33 EDT" duration-ms="10026" status="FAIL">
+        <test-method signature="Arival_Depature_Selection()[pri:28, instance:projectautomation.Test_file@6646153]" started-at="2019-10-01T15:33:47 EDT" name="Arival_Depature_Selection" finished-at="2019-10-01T15:33:57 EDT" duration-ms="10029" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: /html[1]/body[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[4]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[5]/td[1]/form[1]/table[1]/tbody[1]/tr[9]/td[1]/input[1]
@@ -111,8 +111,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'kali', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-kali4-amd64', java.version: '12.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 15776, moz:profile: /tmp/rust_mozprofile3D7xzB, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: f597f11d-dea1-412a-9acf-b8197519238e
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 5116, moz:profile: /tmp/rust_mozprofile7SHeO4, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6768258f-2ad5-4768-aad5-0b9d4499acea
 *** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[4]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[5]/td[1]/form[1]/table[1]/tbody[1]/tr[9]/td[1]/input[1]}]]>
             </message>
             <full-stacktrace>
@@ -121,8 +121,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'kali', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-kali4-amd64', java.version: '12.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 15776, moz:profile: /tmp/rust_mozprofile3D7xzB, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: f597f11d-dea1-412a-9acf-b8197519238e
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 5116, moz:profile: /tmp/rust_mozprofile7SHeO4, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6768258f-2ad5-4768-aad5-0b9d4499acea
 *** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[4]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[5]/td[1]/form[1]/table[1]/tbody[1]/tr[9]/td[1]/input[1]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -140,7 +140,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at projectautomation.Arival_Depature_Selection.getdepart(Arival_Depature_Selection.java:18)
-at projectautomation.Test_file.Arival_Depature_Selection(Test_file.java:71)
+at projectautomation.Test_file.Arival_Depature_Selection(Test_file.java:58)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -175,7 +175,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Arival_Depature_Selection -->
-        <test-method signature="Form_fill_secure_Payment_Test()[pri:29, instance:projectautomation.Test_file@f2f2cc1]" started-at="2019-10-01T04:21:33 EDT" name="Form_fill_secure_Payment_Test" finished-at="2019-10-01T04:21:43 EDT" duration-ms="10023" status="FAIL">
+        <test-method signature="Form_fill_secure_Payment_Test()[pri:29, instance:projectautomation.Test_file@6646153]" started-at="2019-10-01T15:33:57 EDT" name="Form_fill_secure_Payment_Test" finished-at="2019-10-01T15:34:07 EDT" duration-ms="10024" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: table:nth-child(1) tbody:nth-child(1) tr:nth-child(8) td.data_left:nth-child(2) > font:nth-child(1)
@@ -183,8 +183,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'kali', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-kali4-amd64', java.version: '12.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 15776, moz:profile: /tmp/rust_mozprofile3D7xzB, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: f597f11d-dea1-412a-9acf-b8197519238e
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 5116, moz:profile: /tmp/rust_mozprofile7SHeO4, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6768258f-2ad5-4768-aad5-0b9d4499acea
 *** Element info: {Using=css selector, value=table:nth-child(1) tbody:nth-child(1) tr:nth-child(8) td.data_left:nth-child(2) > font:nth-child(1)}]]>
             </message>
             <full-stacktrace>
@@ -193,8 +193,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'kali', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-kali4-amd64', java.version: '12.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 15776, moz:profile: /tmp/rust_mozprofile3D7xzB, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: f597f11d-dea1-412a-9acf-b8197519238e
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 5116, moz:profile: /tmp/rust_mozprofile7SHeO4, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6768258f-2ad5-4768-aad5-0b9d4499acea
 *** Element info: {Using=css selector, value=table:nth-child(1) tbody:nth-child(1) tr:nth-child(8) td.data_left:nth-child(2) > font:nth-child(1)}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -212,7 +212,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWeb
 at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at projectautomation.Secure_Payment.gettaxes(Secure_Payment.java:44)
-at projectautomation.Test_file.Form_fill_secure_Payment_Test(Test_file.java:78)
+at projectautomation.Test_file.Form_fill_secure_Payment_Test(Test_file.java:65)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -247,7 +247,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Form_fill_secure_Payment_Test -->
-        <test-method signature="TotalAmt_with_Taxes()[pri:30, instance:projectautomation.Test_file@f2f2cc1]" started-at="2019-10-01T04:21:43 EDT" name="TotalAmt_with_Taxes" finished-at="2019-10-01T04:21:53 EDT" duration-ms="10018" status="FAIL">
+        <test-method signature="TotalAmt_with_Taxes()[pri:30, instance:projectautomation.Test_file@6646153]" started-at="2019-10-01T15:34:07 EDT" name="TotalAmt_with_Taxes" finished-at="2019-10-01T15:34:17 EDT" duration-ms="10025" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: td.data_left font:nth-child(1) font:nth-child(1) font:nth-child(1) b:nth-child(1) > font:nth-child(1)
@@ -255,8 +255,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'kali', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-kali4-amd64', java.version: '12.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 15776, moz:profile: /tmp/rust_mozprofile3D7xzB, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: f597f11d-dea1-412a-9acf-b8197519238e
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 5116, moz:profile: /tmp/rust_mozprofile7SHeO4, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6768258f-2ad5-4768-aad5-0b9d4499acea
 *** Element info: {Using=css selector, value=td.data_left font:nth-child(1) font:nth-child(1) font:nth-child(1) b:nth-child(1) > font:nth-child(1)}]]>
             </message>
             <full-stacktrace>
@@ -265,8 +265,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'kali', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-kali4-amd64', java.version: '12.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 15776, moz:profile: /tmp/rust_mozprofile3D7xzB, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: f597f11d-dea1-412a-9acf-b8197519238e
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.6.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 5116, moz:profile: /tmp/rust_mozprofile7SHeO4, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.0-kali4-amd64, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6768258f-2ad5-4768-aad5-0b9d4499acea
 *** Element info: {Using=css selector, value=td.data_left font:nth-child(1) font:nth-child(1) font:nth-child(1) b:nth-child(1) > font:nth-child(1)}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -284,7 +284,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWeb
 at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at projectautomation.TotalAmt_with_Taxes.getfinal_taxes(TotalAmt_with_Taxes.java:21)
-at projectautomation.Test_file.TotalAmt_with_Taxes(Test_file.java:119)
+at projectautomation.Test_file.TotalAmt_with_Taxes(Test_file.java:106)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -319,7 +319,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TotalAmt_with_Taxes -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:projectautomation.Test_file@f2f2cc1]" started-at="2019-10-01T04:21:53 EDT" name="teardown" finished-at="2019-10-01T04:21:56 EDT" duration-ms="3069" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:projectautomation.Test_file@6646153]" started-at="2019-10-01T15:34:17 EDT" name="teardown" finished-at="2019-10-01T15:34:18 EDT" duration-ms="950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
